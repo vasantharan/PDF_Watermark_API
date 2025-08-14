@@ -4,6 +4,10 @@ from io import BytesIO
 
 app = Flask(__name__)
 
+@app.route("/watermark", methods=["POST", "GET"])
+def home():
+    return "API for watermarking PDFs with student IDs. Use POST /watermark to watermark a PDF."
+
 @app.route("/watermark", methods=["POST"])
 def watermark_pdf():
     student_id = request.form.get("student_id")
