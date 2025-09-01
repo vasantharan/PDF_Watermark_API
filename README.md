@@ -34,8 +34,8 @@ It takes a PDF file and overlays the given student ID text repeatedly across eve
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vasantharan/pdf-watermark-api.git
-cd pdf-watermark-api
+git clone https://github.com/vasantharan/PDF_Watermark_API.git
+cd PDF_Watermark_API
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -111,5 +111,3 @@ This project is licensed under the [MIT License](LICENSE).
 You’re free to use, modify, and distribute it.
 
 ---
-
-Would you like me to also add **example screenshots or request/response previews** (like before/after PDF watermark samples) to make the README more visually appealing for GitHub?
